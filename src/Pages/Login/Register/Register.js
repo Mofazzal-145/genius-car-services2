@@ -11,7 +11,13 @@ const Register = () => {
 
     const handleRegister = event => {
         event.preventDefault();
+        const name = event.target.name.value;
+        const email = event.target.email.value;
+        const password = event.target.password.value;
+        
     }
+
+
     return (
         <div className='register-form'>
             <h2 style={{textAlign :'center'}}>This is Register</h2>
